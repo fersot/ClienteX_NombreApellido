@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3eaf592-6c22-408f-ac4d-27779b67b46d" name="Default Changelist" comment="" />
+    <list default="true" id="d3eaf592-6c22-408f-ac4d-27779b67b46d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/partials/ClienteX_NombreApellido-public-display.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/class-ClienteX_NombreApellido-public.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,16 +35,20 @@
         <entry file="file://$PROJECT_DIR$/ClienteX_NombreApellido.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="2" />
+              <folding>
+                <element signature="n#create_leads_table#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+                <element signature="n#create_leads_table#1;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,8 +74,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uninstall.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="80">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -98,6 +105,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -111,7 +121,6 @@
         <option value="$PROJECT_DIR$/public/js/ClienteX_NombreApellido-public.js" />
         <option value="$PROJECT_DIR$/public/css/ClienteX_NombreApellido-public.css" />
         <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido.php" />
-        <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php" />
         <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-i18n.php" />
         <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-loader.php" />
         <option value="$PROJECT_DIR$/admin/css/ClienteX_NombreApellido-admin.css" />
@@ -122,6 +131,7 @@
         <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/ClienteX_NombreApellido.php" />
         <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php" />
+        <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php" />
       </list>
     </option>
   </component>
@@ -129,11 +139,12 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1376" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -145,16 +156,6 @@
             <path>
               <item name="ClienteX_NombreApellido" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClienteX_NombreApellido" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClienteX_NombreApellido" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClienteX_NombreApellido" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClienteX_NombreApellido" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClienteX_NombreApellido" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ClienteX_NombreApellido" type="b2602c69:ProjectViewProjectNode" />
@@ -188,7 +189,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pasto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../FeriaMinera" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -215,12 +216,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557240357007</updated>
       <workItem from="1557240358974" duration="655000" />
-      <workItem from="1557241130523" duration="3767000" />
+      <workItem from="1557241130523" duration="7269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4422000" />
+    <option name="totallyTimeSpent" value="7924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -239,7 +240,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -263,13 +264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -345,13 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uninstall.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -372,7 +359,14 @@
     <entry file="file://$PROJECT_DIR$/ClienteX_NombreApellido.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uninstall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -385,8 +379,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+          <folding>
+            <element signature="n#create_leads_table#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+            <element signature="n#create_leads_table#1;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="29" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
