@@ -24,18 +24,14 @@ if (!defined('WPINC')) {
     die;
 }
 add_action("admin_menu", "crear_menu");
+
 function crear_menu()
 {
     add_menu_page('Listado', 'Leads ClienteX', 'manage_options', 'leads_cliente_x', 'listado');
     add_submenu_page('leads_cliente_x', 'Settings Leads ClienteX', 'Settings', 'manage_options', 'leads_cliente_x_settings', 'configuracion');
 
 }
-function arthur_load_scripts_admin() {
 
-    wp_enqueue_media();
-}
-
-add_action( 'admin_enqueue_scripts', 'arthur_load_scripts_admin' );
 function listado()
 {
     ?>
@@ -94,19 +90,7 @@ function configuracion()
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
-    <script>
-        $('.upload_image_button').click(function() {
-            var send_attachment_bkp = wp.media.editor.send.attachment;
-            var button = $(this);
-            wp.media.editor.send.attachment = function(props, attachment) {
-                $(button).parent().prev().attr('src', attachment.url);
-                $(button).prev().val(attachment.id);
-                wp.media.editor.send.attachment = send_attachment_bkp;
-            }
-            wp.media.editor.open(button);
-            return false;
-        });
-    </script>
+
     <?php
 }
 
