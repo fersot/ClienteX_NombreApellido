@@ -35,9 +35,21 @@ class ClienteX_NombreApellido_Activator
         $created = dbDelta(
             "CREATE TABLE $nombreTabla (
             config varchar(60) NOT NULL DEFAULT '',
-            value varchar(255) NOT NULL DEFAULT ''
+            value varchar(255) DEFAULT null 
           ) CHARACTER SET utf8 COLLATE utf8_general_ci;"
         );
+        $wpdb->insert($nombreTabla, [
+            'config' => 'logo',
+            'value' => null
+        ]);
+        $wpdb->insert($nombreTabla, [
+            'config' => 'intro_form',
+            'value' => 'Por favor diligencia el siguiente formulario.'
+        ]);
+        $wpdb->insert($nombreTabla, [
+            'config' => 'thankyou',
+            'value' => 'Gracias por completar el formulario.'
+        ]);
     }
 
 }
