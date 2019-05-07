@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3eaf592-6c22-408f-ac4d-27779b67b46d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClienteX_NombreApellido.php" beforeDir="false" afterPath="$PROJECT_DIR$/ClienteX_NombreApellido.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +34,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ClienteX_NombreApellido.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+            <state relative-caret-position="162">
+              <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
               <folding>
                 <element signature="e#7#654#0#PHP" expanded="true" />
-                <element signature="n#output_menu#0;n#!!top" />
                 <element signature="e#1438#1469#0#HTML" expanded="true" />
                 <element signature="n#run_ClienteX_NombreApellido#0;n#!!top" />
               </folding>
@@ -176,12 +176,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557240357007</updated>
       <workItem from="1557240358974" duration="655000" />
-      <workItem from="1557241130523" duration="9537000" />
+      <workItem from="1557241130523" duration="10235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10192000" />
+    <option name="totallyTimeSpent" value="10890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -200,7 +200,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -346,11 +346,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClienteX_NombreApellido.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+        <state relative-caret-position="162">
+          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
           <folding>
             <element signature="e#7#654#0#PHP" expanded="true" />
-            <element signature="n#output_menu#0;n#!!top" />
             <element signature="e#1438#1469#0#HTML" expanded="true" />
             <element signature="n#run_ClienteX_NombreApellido#0;n#!!top" />
           </folding>
