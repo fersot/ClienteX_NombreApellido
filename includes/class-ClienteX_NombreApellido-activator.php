@@ -16,7 +16,7 @@ class ClienteX_NombreApellido_Activator
         global $wpdb;
         $nombreTabla = $wpdb->prefix . "WPNombreAppellido_leads";
 
-        $created = dbDelta(
+        dbDelta(
             "CREATE TABLE $nombreTabla (
             ID bigint(20) unsigned NOT NULL AUTO_INCREMENT,
             name varchar(60) NOT NULL DEFAULT '',
@@ -26,18 +26,15 @@ class ClienteX_NombreApellido_Activator
           ) CHARACTER SET utf8 COLLATE utf8_general_ci;"
         );
     }
+
     public static function create_settings_table()
     {
-
         global $wpdb;
         $nombreTabla = $wpdb->prefix . "WPNombreAppellido_settings";
 
-        $created = dbDelta(
-            "CREATE TABLE $nombreTabla (
-            config varchar(60) NOT NULL DEFAULT '',
-            value varchar(255) DEFAULT null 
-          ) CHARACTER SET utf8 COLLATE utf8_general_ci;"
-        );
+        dbDelta("CREATE TABLE $nombreTabla (config varchar(60) NOT NULL DEFAULT '',
+            value varchar(255) DEFAULT null ) CHARACTER SET utf8 COLLATE utf8_general_ci;");
+
         $wpdb->insert($nombreTabla, [
             'config' => 'logo',
             'value' => null
