@@ -18,7 +18,8 @@ class ClienteX_NombreApellido_Activator
     {
         $landing = array(
             'post_name' => 'leads-cliente-x',
-            'post_content' => 'content',
+            'post_title' => 'leads',
+            'post_content' => '[form_cliente_x]',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
@@ -30,6 +31,7 @@ class ClienteX_NombreApellido_Activator
     {
         $landing = array(
             'post_name' => 'gracias-cliente-x',
+            'post_title' => 'gracias',
             'post_content' => 'content',
             'post_status' => 'publish',
             'post_author' => 1,

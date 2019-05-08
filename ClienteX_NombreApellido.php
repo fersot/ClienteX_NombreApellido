@@ -24,6 +24,43 @@ if (!defined('WPINC')) {
     die;
 }
 add_action("admin_menu", "crear_menu");
+add_action('wp_loaded', 'submit_form');
+function submit_form()
+{
+    if (isset($_POST['cf-submitted'])) {
+        wp_redirect('/gracias-cliente-x');
+        exit;
+    }
+}
+
+function html_form()
+{
+    echo '<style>
+            .own-input-text {
+                height: 47px !important;
+                border: #f5eff0 1px solid !important;
+                border-radius: 15px !important;
+                margin: 10px !important;
+                font-family: Bahnschrift;
+             }
+          </style>';
+    echo '<form action="' . esc_url($_SERVER['REQUEST_URI']) . '" method="post">';
+    echo '<input type="text" class="own-input-text" placeholder="Ingrese su Nombre">';
+    echo '<input type="email" class="own-input-text" placeholder="Ingrese su Correo">';
+    echo '<p><input type="submit" name="cf-submitted" value="Send"></p>';
+    echo '</form>';
+}
+
+
+function form_shortcode()
+{
+    ob_start();
+    submit_form();
+    html_form();
+    return ob_get_clean();
+}
+
+add_shortcode('form_cliente_x', 'form_shortcode');
 
 function crear_menu()
 {
@@ -81,7 +118,7 @@ function configuracion()
     </div>
     <br><br>
     <div class="col-md-12">
-        <a title="Upload image" class="upload_image_button" id="add_image" >Upload Image</a>
+        <a title="Upload image" class="upload_image_button" id="add_image">Upload Image</a>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -120,5 +157,6 @@ function run_ClienteX_NombreApellido()
     $plugin->run();
 
 }
+
 
 run_ClienteX_NombreApellido();

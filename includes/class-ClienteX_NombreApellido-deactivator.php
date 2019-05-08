@@ -18,7 +18,7 @@ class ClienteX_NombreApellido_Deactivator
         $nombreTabla = $wpdb->prefix . "WPNombreAppellido_settings";
         $thankyou = $wpdb->query('SELECT FROM ' . $nombreTabla . ' WHERE config = "thankyou_id"');
         $landing = $wpdb->query('SELECT FROM ' . $nombreTabla . ' WHERE config = "landing_id"');
-       echo $thankyou;
+        return $thankyou;
     }
 
     public static function drop_leads_table()
