@@ -64,7 +64,7 @@ function html_form()
 <option value="M">Masculino</option>
 <option value="F">Femenino</option>
 </select>';
-    echo '<p><input type="submit" class="header-button-solid" name="cf-submitted" value="Enviar"></p>';
+    echo '<p><input type="submit" class="btn btn-primary" name="cf-submitted" value="Enviar"></p>';
     echo '</form>';
 }
 
