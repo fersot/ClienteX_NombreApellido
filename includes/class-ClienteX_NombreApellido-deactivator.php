@@ -16,9 +16,10 @@ class ClienteX_NombreApellido_Deactivator
     {
         global $wpdb;
         $nombreTabla = $wpdb->prefix . "WPNombreAppellido_settings";
-        $thankyou = $wpdb->query('SELECT FROM ' . $nombreTabla . ' WHERE config = "thankyou_id"');
-        $landing = $wpdb->query('SELECT FROM ' . $nombreTabla . ' WHERE config = "landing_id"');
-        return $thankyou;
+        $landing = $wpdb->get_results('SELECT * FROM ' . $nombreTabla . ' WHERE config = "landing_id"');
+        $thankyou = $wpdb->get_results('SELECT * FROM ' . $nombreTabla . ' WHERE config = "thankyou_id"');
+        wp_delete_post($thankyou[0]->value, true);
+        wp_delete_post($landing[0]->value, true);
     }
 
     public static function drop_leads_table()
