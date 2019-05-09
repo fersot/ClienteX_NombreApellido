@@ -9,7 +9,6 @@ class ClienteX_NombreApellido_Deactivator
         self::drop_pages();
         self::drop_leads_table();
         self::drop_settings_table();
-
     }
 
     public static function drop_pages()

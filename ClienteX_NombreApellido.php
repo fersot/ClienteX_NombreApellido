@@ -1,5 +1,7 @@
 <?php
 
+// informacion que obtiene wordpress para mostrar
+
 /**
  *
  * @link              http://hembercolmenares.info
@@ -23,9 +25,11 @@
 if (!defined('WPINC')) {
     die;
 }
+// instanciar la clase
 require plugin_dir_path(__FILE__) . 'includes/class-ClienteX_NombreApellido.php';
 
 add_action("admin_menu", "crear_menu");
+
 add_action('wp_loaded', 'submit_form');
 
 function submit_form()
@@ -109,13 +113,13 @@ function gracias_shortcode()
 }
 
 add_shortcode('form_cliente_x', 'form_shortcode');
+
 add_shortcode('gracias_cliente_x', 'gracias_shortcode');
 
 function crear_menu()
 {
     add_menu_page('Listado', 'Leads ClienteX', 'manage_options', 'leads_cliente_x', 'listado');
     add_submenu_page('leads_cliente_x', 'Settings Leads ClienteX', 'Settings', 'manage_options', 'leads_cliente_x_settings', 'configuracion');
-
 }
 
 function listado()
@@ -126,7 +130,6 @@ function listado()
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <div class="card col-md-11">
         <div class="card-heading">Todos los registros obtenidos del formulario</div>
-
         <div class="card-body">
             <div class="col-md-12">
                 <table style="width: 100% !important;" class="table table-hover table-striped">
@@ -164,7 +167,6 @@ function listado()
             crossorigin="anonymous"></script>
     <?php
 }
-
 
 function configuracion()
 {
@@ -234,8 +236,8 @@ function configuracion()
     <?php
 }
 
-
 add_action('admin_footer', 'media_selector_print_scripts');
+
 function media_selector_print_scripts()
 {
     $my_saved_attachment_post_id = get_option('media_selector_attachment_id', 0);
@@ -288,9 +290,6 @@ function media_selector_print_scripts()
     </script><?php
 }
 
-
-define('PLUGIN_NAME_VERSION', '1.0.0');
-
 function activate_ClienteX_NombreApellido()
 {
     require_once plugin_dir_path(__FILE__) . 'includes/class-ClienteX_NombreApellido-activator.php';
@@ -305,15 +304,3 @@ function deactivate_ClienteX_NombreApellido()
 
 register_activation_hook(__FILE__, 'activate_ClienteX_NombreApellido');
 register_deactivation_hook(__FILE__, 'deactivate_ClienteX_NombreApellido');
-
-
-function run_ClienteX_NombreApellido()
-{
-
-    $plugin = new ClienteX_NombreApellido();
-    $plugin->run();
-
-}
-
-
-run_ClienteX_NombreApellido();

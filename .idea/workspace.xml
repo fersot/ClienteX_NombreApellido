@@ -4,7 +4,22 @@
     <list default="true" id="d3eaf592-6c22-408f-ac4d-27779b67b46d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClienteX_NombreApellido.php" beforeDir="false" afterPath="$PROJECT_DIR$/ClienteX_NombreApellido.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/class-ClienteX_NombreApellido-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/css/ClienteX_NombreApellido-admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/ClienteX_NombreApellido-admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/partials/ClienteX_NombreApellido-admin-display.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-i18n.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClienteX_NombreApellido.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/class-ClienteX_NombreApellido-public.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/ClienteX_NombreApellido-public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/ClienteX_NombreApellido-public.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/partials/ClienteX_NombreApellido-public-display.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,45 +29,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/class-ClienteX_NombreApellido-public.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="98" column="53" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="53" />
+            <state relative-caret-position="51">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding>
+                <element signature="n#get_plugin_option#0;n#ClienteX_NombreApellido#0;n#!!top" />
+                <element signature="n#get_leads#0;n#ClienteX_NombreApellido#0;n#!!top" />
+                <element signature="n#set_plugin_option#0;n#ClienteX_NombreApellido#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClienteX_NombreApellido.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="79" column="109" selection-start-line="79" selection-start-column="109" selection-end-line="79" selection-end-column="109" />
+            <state relative-caret-position="152">
+              <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
               <folding>
-                <element signature="e#3353#4259#0#HTML" />
-                <element signature="e#3702#3733#0#HTML" expanded="true" />
+                <element signature="e#12#656#0#PHP" />
+                <element signature="n#submit_form#0;n#!!top" />
+                <element signature="n#html_form#0;n#!!top" />
+                <element signature="n#html_gracias#0;n#!!top" />
+                <element signature="n#form_shortcode#0;n#!!top" />
+                <element signature="n#gracias_shortcode#0;n#!!top" />
+                <element signature="n#crear_menu#0;n#!!top" />
+                <element signature="n#listado#0;n#!!top" />
                 <element signature="n#configuracion#0;n#!!top" />
-                <element signature="e#5135#5588#0#PHP" />
-                <element signature="e#7541#7584#0#HTML" expanded="true" />
-                <element signature="e#7495#7515#0#HTML" expanded="true" />
                 <element signature="n#media_selector_print_scripts#0;n#!!top" />
                 <element signature="n#activate_ClienteX_NombreApellido#0;n#!!top" />
                 <element signature="n#deactivate_ClienteX_NombreApellido#0;n#!!top" />
@@ -64,8 +69,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="n#deactivate#0;n#ClienteX_NombreApellido_Deactivator#0;n#!!top" />
+                <element signature="n#drop_pages#0;n#ClienteX_NombreApellido_Deactivator#0;n#!!top" />
+                <element signature="n#drop_leads_table#0;n#ClienteX_NombreApellido_Deactivator#0;n#!!top" />
+                <element signature="n#drop_settings_table#0;n#ClienteX_NombreApellido_Deactivator#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +84,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+            <state relative-caret-position="113">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="n#activate#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+                <element signature="n#create_landing#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+                <element signature="n#create_thankyou#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+                <element signature="n#create_leads_table#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+                <element signature="n#create_settings_table#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,10 +128,10 @@
         <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/uninstall.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa1276.43318/WorsPress Media uploder.php" />
-        <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido.php" />
         <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php" />
-        <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php" />
         <option value="$PROJECT_DIR$/ClienteX_NombreApellido.php" />
+        <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php" />
+        <option value="$PROJECT_DIR$/includes/class-ClienteX_NombreApellido.php" />
       </list>
     </option>
   </component>
@@ -181,12 +199,12 @@
       <updated>1557240357007</updated>
       <workItem from="1557240358974" duration="655000" />
       <workItem from="1557241130523" duration="12927000" />
-      <workItem from="1557271172597" duration="19560000" />
+      <workItem from="1557271172597" duration="20762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33142000" />
+    <option name="totallyTimeSpent" value="34344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -229,13 +247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-i18n.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -290,13 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/class-ClienteX_NombreApellido-public.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa11764.12249/content-portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -348,20 +352,6 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa9904.11194/MultipurposeElementorTemplate.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="98" column="53" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa1276.40312/WorsPress Media uploder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -372,27 +362,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php">
+    <entry file="file://$PROJECT_DIR$/public/class-ClienteX_NombreApellido-public.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+        <state relative-caret-position="17">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-i18n.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClienteX_NombreApellido.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="79" column="109" selection-start-line="79" selection-start-column="109" selection-end-line="79" selection-end-column="109" />
+        <state relative-caret-position="152">
+          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding>
-            <element signature="e#3353#4259#0#HTML" />
-            <element signature="e#3702#3733#0#HTML" expanded="true" />
+            <element signature="e#12#656#0#PHP" />
+            <element signature="n#submit_form#0;n#!!top" />
+            <element signature="n#html_form#0;n#!!top" />
+            <element signature="n#html_gracias#0;n#!!top" />
+            <element signature="n#form_shortcode#0;n#!!top" />
+            <element signature="n#gracias_shortcode#0;n#!!top" />
+            <element signature="n#crear_menu#0;n#!!top" />
+            <element signature="n#listado#0;n#!!top" />
             <element signature="n#configuracion#0;n#!!top" />
-            <element signature="e#5135#5588#0#PHP" />
-            <element signature="e#7541#7584#0#HTML" expanded="true" />
-            <element signature="e#7495#7515#0#HTML" expanded="true" />
             <element signature="n#media_selector_print_scripts#0;n#!!top" />
             <element signature="n#activate_ClienteX_NombreApellido#0;n#!!top" />
             <element signature="n#deactivate_ClienteX_NombreApellido#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-activator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="n#activate#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+            <element signature="n#create_landing#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+            <element signature="n#create_thankyou#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+            <element signature="n#create_leads_table#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+            <element signature="n#create_settings_table#0;n#ClienteX_NombreApellido_Activator#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido-deactivator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="n#deactivate#0;n#ClienteX_NombreApellido_Deactivator#0;n#!!top" />
+            <element signature="n#drop_pages#0;n#ClienteX_NombreApellido_Deactivator#0;n#!!top" />
+            <element signature="n#drop_leads_table#0;n#ClienteX_NombreApellido_Deactivator#0;n#!!top" />
+            <element signature="n#drop_settings_table#0;n#ClienteX_NombreApellido_Deactivator#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class-ClienteX_NombreApellido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <element signature="n#get_plugin_option#0;n#ClienteX_NombreApellido#0;n#!!top" />
+            <element signature="n#get_leads#0;n#ClienteX_NombreApellido#0;n#!!top" />
+            <element signature="n#set_plugin_option#0;n#ClienteX_NombreApellido#0;n#!!top" />
           </folding>
         </state>
       </provider>

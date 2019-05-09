@@ -4,6 +4,7 @@ require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 class ClienteX_NombreApellido_Activator
 {
     public static $landigID;
+
     public static $thanksID;
 
     public static function activate()
