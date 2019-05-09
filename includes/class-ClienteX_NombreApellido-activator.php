@@ -52,6 +52,7 @@ class ClienteX_NombreApellido_Activator
             name varchar(60) NOT NULL DEFAULT '',
             email varchar(64) NOT NULL DEFAULT '',
             gender char(1) NOT NULL DEFAULT '',
+            year int(11) NOT NULL DEFAULT 0,
             PRIMARY KEY (ID)
           ) CHARACTER SET utf8 COLLATE utf8_general_ci;"
         );
